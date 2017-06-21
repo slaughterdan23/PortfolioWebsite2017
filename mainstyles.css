@@ -10,6 +10,10 @@ body {
 	/* 	background-size: cover; */
 }
 
+.body_div {
+	margin-top: 60px;
+}
+
 #heading1 {
 	padding: 30px 0px;
 	overflow: auto;
@@ -25,7 +29,7 @@ body {
 	width: 40px;
 }
 
-#logo {
+/*#logo {
 	font-family: 'Open Sans', sans-serif;
 	color: #9b8a63;
 	text-decoration: none;
@@ -37,50 +41,45 @@ body {
 	text-shadow: #2B625C 3px 2px 0;
 	position: relative;
 	padding-right: 100px;
-}
-#logo:after {
+}*/
+
+/*#logo:after {
 	content:"Daniel Wayne Slaughter's Portfolio";
 	position: absolute;
 	left: 8px;
 	top: 12px;
 }
+
 #logo:after {
 	/*background: url(http://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
-	background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+	/*background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
 	background-size: 4px 4px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	z-index: -5;
 	display: block;
 	text-shadow: none;
-}
+}*/
+
 .h1_Home {
 	color: #9b8a63;
 	font-family:'Open Sans' sans-serif;
 	text-align: center;
 	padding: 20px;
-	/*   text-transform: lowercase; */
 	margin: 40px;
 }
 
-
-
-.navbar-default{
-	background-image: linear-gradient(to bottom,#2B625C 0,#9b8a63 100%);	color: #9b8a63;
+#navbar a {
+	color: red;
 	font-family: sans-serif;
+	text-decoration: none;
 }
 
-.navbar-fixed-top, .navbar-static-top {
-    border-radius: 30px;
-    border-color: whitesmoke;
-    border-width: 2px;
+#navbar a:hover {
+	color: rgba(0, 0, 0, .9);
+	font-family: sans-serif;
+	text-decoration: none;
 }
-
-
-/*.navbar_text_right {
-	float:right;
-	position: center;
-}*/
 
 a{
 	color: white;
@@ -89,10 +88,9 @@ a{
 }
 
 a:hover {
-	color: #ffffff;
+	color: rgba(0, 0, 0, .9);
 	font-family: sans-serif;
 	text-decoration: none;
-	font-size: 1.1em; 
 }
 
 /*Home*/
@@ -175,6 +173,3 @@ a:hover {
 img {
 	border-radius: 25px;
 }
-
-
-
