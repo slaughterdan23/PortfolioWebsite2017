@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(http://fonts.googleapis.com/css?family=Squada+One);
+
+body {
+	background-image: url(Dark-grey-texture-abstract-hd-wallpaper_2.jpg);
+	background-repeat: repeat;
+	padding: 20px 80px;
+	font-family: 'Open Sans', sans-serif;
+	color: #9b8a63;
+	/* 	background-size: cover; */
+}
+
+#heading1 {
+	padding: 30px 0px;
+	overflow: auto;
+	margin-top: 30px;
+}
+
+#heading_img {
+	float:left;
+}
+
+.header_icon {
+	height: 40px;
+	width: 40px;
+}
+
+#logo {
+	font-family: 'Open Sans', sans-serif;
+	color: #9b8a63;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 800;
+	letter-spacing: -3px;
+	line-height: 1;
+	text-shadow: #2B625C 3px 2px 0;
+	position: relative;
+	padding-right: 100px;
+}
+#logo:after {
+	content:"Daniel Wayne Slaughter's Portfolio";
+	position: absolute;
+	left: 8px;
+	top: 12px;
+}
+#logo:after {
+	/*background: url(http://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
+	background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+	background-size: 4px 4px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	z-index: -5;
+	display: block;
+	text-shadow: none;
+}
+.h1_Home {
+	color: #9b8a63;
+	font-family:'Open Sans' sans-serif;
+	text-align: center;
+	padding: 20px;
+	/*   text-transform: lowercase; */
+	margin: 40px;
+}
+
+
+
+.navbar-default{
+	background-image: linear-gradient(to bottom,#2B625C 0,#9b8a63 100%);	color: #9b8a63;
+	font-family: sans-serif;
+}
+
+.navbar-fixed-top, .navbar-static-top {
+    border-radius: 30px;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+
+
+/*.navbar_text_right {
+	float:right;
+	position: center;
+}*/
+
+a{
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 1.1em; 
+}
+
+/*Home*/
+
+.home_nav_pics {
+	/*   height:500px; */
+	/*   width:500px; */
+	display:inline-block;
+	margin: 40px 0px;
+}
+
+#pic_About{
+	/*background-color: red; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	transition: 1s;
+}
+
+#pic_About:hover{
+	/* 	background-color: red; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	opacity: 0.5;
+}
+
+#pic_Websites{
+	 	/*background-color: blue; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	transition: 1s;
+
+}
+
+#pic_Websites:hover{
+	/* 	background-color: blue; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	opacity: 0.5;
+}
+
+#pic_Games{
+	 	/*background-color: green; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	/*border-radius:25px;*/
+	transition: 1s;
+
+}
+
+#pic_Games:hover{
+	/* 	background-color: green; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	opacity: 0.5;
+}
+
+#pic_Music{
+	 	/*background-color: grey; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	transition: 1s;
+
+}
+
+#pic_Music:hover{
+	/* 	background-color: grey; */
+	/*position: relative;*/
+	/*display: inline-block;*/
+	/*margin: 3px;*/
+	opacity: 0.5;
+}
+
+img {
+	border-radius: 25px;
+}
+
+
+
